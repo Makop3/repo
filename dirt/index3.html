@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital@1&family=PT+Serif&family=Signika:wght@500&family=Smooch&display=swap" rel="stylesheet">    <title>MkwbSt</title>
+
+    <title>MkwbSt</title>
+    <style>
+   *{
+    padding: 50px;
+    margin: 0px;
+    font-family: 'Signika', sans-serif;
+
+}    
+    .body{
+    background-color:black ;
+    border: none;
+    border-radius:2%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    }
+    
+    .bodytitle{
+        padding: 50px;
+        margin: 0px;
+        color:wheat;
+    }
+    
+
+
+    .todo{
+    background-color: #75706E;
+    padding: 10px 25px;
+    border-radius:2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  
+
+    </style>
+</head>
+<div class="todo">
+<div>
+<body class="body">
+
+    <h1 class="bodytitle">Te apesta el Sobaco?</h1>
+    </div>
+    <button id="yes">SI</button>
+    <button id="no">NO</button>
+    
+</div>
+</div>
+<script>
+
+const btnSi = document.getElementById('yes');
+const btnNO = document.getElementById('no');
+
+const pollito = () => {
+    alert('Mugrosa ');
+    alert('Te la dedico xd');
+    location.href= 'https://www.youtube.com/shorts/s16UOShizcU';
+};
+
+const btnmovimiento = () => {
+    btnNO.style.position = 'absolute';
+    btnNO.style.top= (Math.random()* window.innerHeight) + 'px';
+    btnNO.style.left= (Math.random()* window.innerWidth) + 'px';
+};
+
+btnSi.addEventListener('click', pollito);
+btnNO.addEventListener('mouseover', btnmovimiento);
+</script>
+
+</div>  
+</body>
+</html>
